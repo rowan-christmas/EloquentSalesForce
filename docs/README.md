@@ -70,7 +70,9 @@ If you need to modify any more settings for Forrest, publish the config file usi
 php artisan vendor:publish
 ```
 
-You can find the config file in: `config/eloquent_sf.php`. Any of the same settings that Forrest recognizes will be available to set here.
+You can find the config file in: `config/eloquent_sf.php`. Any of the same settings that Forrest recognizes will be available to set here. 
+
+NOTE: Installing Eloquent Salesforce will override any settings in `config/forrest.php`, move all settings to the new `config/eloquent_sf.php` in order to maintain your Salesforce connection.
 
 ## Model Setup
 
